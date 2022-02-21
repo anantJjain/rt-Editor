@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+.Rectangle813{
+    position: relative;
+    /* left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 90.24%; */
+    top: 0;
+    height: 100px;
+    width: 100vw;
+    /* width: 1818px; */
+    border-radius: 0px;
+    background: #FAFBFC;
+    box-shadow: 0px 0px 20px rgba(56, 71, 109, 0.03);
+    /* border: 2px red solid; */
+}
+
+.Logo21{
+    position: absolute;
+    width: 42px;
+    height: 39.65px;
+    left: 30px;
+    top: 30px;
+    background: url(../public/logo.png);
+    /* border: 2px red solid; */
+}
+
+.Line630{
+    position: absolute;
+    width: 100px;
+    height: 0px;
+    left: 30px;
+    top: 12px;
+    border: 1px solid #E6E6E6;
+    transform: rotate(-90deg);
+    /* border: 2px red solid; */
+
+}
+
+.Data{
+    position: absolute;
+    height: 32px;
+    width: 54px;
+    left: 132px;
+    top: 33px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #091E42;
+    /* border: 2px red solid; */
+
+}
+
+
+.Rectangle111{
+    position: absolute;
+    /* left: 100vw; */
+    right: 25px;
+    height: 50px;
+    width: 50px;
+    top: 23px;
+    bottom: 92.67%;
+    background: #FFFFFF;  
+    /* border: 2px red solid; */
+
+}
+
+.Cog{
+    position: absolute;
+    left: 14.64px;
+    top: 14.55px;
+    width: 20.7px;
+    height: 21.44px;
+    border: 1px solid #E6E6E6;
+    transform: rotate(180deg);
+    background: url(../public/Cog.png);
+
+    /* border: 2px red solid; */
+}
+
+
+ .Line629{
+    position: absolute;
+    width: 100vw;
+    height: 0px;
+    /* left: 1920px; */
+    top: 95px;
+    border: 1px solid #E6E6E6;
+    transform: rotate(180deg);
+    /* border: 2px red solid; */
+
+} 
