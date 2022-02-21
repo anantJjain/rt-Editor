@@ -1,12 +1,7 @@
-/* .editorcontainer {
-  background: #fff;
-  box-shadow: rgb(0 0 0 / 10%) 1px 1px 0px inset,
-    rgb(0 0 0 / 7%) 0px -1px 0px inset;
-  border-width: 1 1 1 6;
+.space{
+    position: absolute;
+    top:60px;
+    left: 0px;
+    width: 1100px;
+    border: 2px red solid;
 }
-
-.editor {
-  min-height: 90vh;
-  position: relative;
-  padding: 20px;
-} */

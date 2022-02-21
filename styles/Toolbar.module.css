@@ -1,17 +1,15 @@
-/* .toolbar {
-  border-bottom: 1px solid #ececec;
-  padding: 20px 0;
-  text-align: center;
+.Toolbar{
+    position: relative;
+    /* border: 2px red solid; */
+    top: 18px;
+    left: 30px;
 }
 
-.toolbarbtn {
-  margin: 0 8px;
+.btn{
+    margin-left: 10px;
+    border: 2px #FAFBFC solid;
+    background: #FAFBFC;
+    
 }
 
-.image-upload-input {
-  display: none;
-}
 
-.block-style-dropdown {
-  display: inline-block;
-} */

@@ -6,6 +6,8 @@ import Toolbar from "./Toolbar";
 import useSelection from "../hooks/useSelection";
 import isHotkey from "is-hotkey";
 import { getActiveStyles, toggleStyle } from "../utils/EditorUtils";
+import styles from '../styles/Editor.module.css'
+
 
 
 
@@ -45,9 +47,12 @@ const Editor = ({ document, onChange}) => {
         [editor.selection, onChange, setSelection]
       );
     return ( 
-        <Slate editor={editor} value={document} onChange={onChangeHandler}>
-            <Toolbar selection={selection}/>
-            <Editable renderElement={renderElement} renderLeaf={renderLeaf} onKeyDown={onKeyDown}/>
+        
+        <Slate className={styles.Slate} editor={editor} value={document} onChange={onChangeHandler}>
+            <Toolbar  selection={selection} />
+            <div className={styles.space}>
+            <Editable className={styles.writearea} renderElement={renderElement} renderLeaf={renderLeaf} onKeyDown={onKeyDown}/>
+            </div>
         </Slate>
      );
 }
